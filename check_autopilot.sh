@@ -3,7 +3,7 @@
 # Timeout duration in seconds (7 minutes = 420 seconds)
 timeout_duration=420
 start_time=$(date +%s)
-
+print("Hello world")
 # Function to check if the desired message appears in kubectl events output
 check_event_message() {
     echo "Waiting for the autopilot rule to be applied..."
